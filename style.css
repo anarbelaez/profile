@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color: #151111;
+  color: azure;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  margin-top: 3em;
+}
+
+.div-left {
+  padding: 1em;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.1em;
+  color: aquamarine;
+}
+
+img {
+  width: 200px;
+  margin-top: 1em;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+}
+
+.div-media {
+  margin-top: 1.2em;
+}
+
+.div-media a {
+  padding: 0.3em;
+  font-size: 2em;
+  color: azure;
+}
+
+.div-right {
+  padding: 0.2em 2.5em;
+  width: 70%;
+  background-color: rgba(147, 147, 147, 0.1);
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.text-pink {
+  color: rgb(255, 255, 255);
+}
+
+.text-green {
+  color:rgb(209, 254, 141);
+}
+
+.text-blue {
+  color: deepskyblue;
+}
+
+.text-crimson {
+  color: rgb(243, 33, 75);
+  text-decoration: none;
+}
+
+a.text-crimson:hover  {
+  font-weight: 900;
+}
+
+.text-azure {
+  color: azure;
+  font-weight: 300;
+}
+
+.text-pink {
+  color: rgb(255, 115, 255);
+}
+
+.text-beige {
+  color: beige;
+}
+
+a.a-blue:hover {
+  color: rgb(68, 184, 230);
+}
+
+a.a-orange:hover {
+  color: tomato;
+}
+
+a.a-red:hover {
+  color: rgb(234, 35, 35);
+}
+
+@media (max-width: 960px) {
+  .container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .div-left {
+    width: 100%;
+    align-items: center;
+  }
+
+  .div-right {
+    margin-left: 1.5em;
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  .div-right {
+    width: 75%;
+  }
+}
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 700px;
+    background-color: red;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    background-color: pink;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    background-color: blue;
+  }
+}
+*/
