@@ -21,7 +21,7 @@ body {
 
 .div-left {
   padding: 1em;
-  width: 30%;
+  flex-basis: 30%;
   text-align: center;
   font-size: 0.8em;
   letter-spacing: 0.1em;
@@ -55,7 +55,7 @@ img {
 
 .div-right {
   padding: 0.2em 2.5em;
-  width: 70%;
+  flex-basis: 70%;
   background-color: rgba(147, 147, 147, 0.1);
   margin: 1em;
   border-radius: 5px;
@@ -109,25 +109,16 @@ a.a-red:hover {
 
 @media (max-width: 960px) {
   .container {
-    margin: auto;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
   .div-left {
-    width: 100%;
-    align-items: center;
+    flex-basis: 100%;
   }
 
   .div-right {
-    width: 80%;
-  }
-}
-
-@media (max-width: 540px) {
-  .div-right {
-    width: 75%;
+    flex-basis: 100%;
   }
 }
 
